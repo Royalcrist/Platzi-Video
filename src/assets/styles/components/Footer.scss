@@ -1,6 +1,8 @@
+@import '../Vars.scss';
+
 .footer {
     align-items: center;
-    background-color: #8f57fd;
+    background-color: $primary-color;
     display: flex;
     height: 100px;
     width: 100%;
@@ -17,10 +19,3 @@
 .footer a:hover {
     text-decoration: underline;
 }
-
-@media only screen and (max-width: 600px) {
-    .footer {
-      align-items: flex-start;
-      flex-direction: column;
-    }
-  }
